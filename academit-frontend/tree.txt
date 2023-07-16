@@ -1,0 +1,21 @@
+.
+├── dockerfile
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── header.jsx
+│   │   └── tabla.jsx
+│   ├── index.css
+│   └── main.jsx
+├── tree.txt
+└── vite.config.js
+
+5 directories, 14 files

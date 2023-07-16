@@ -1,0 +1,24 @@
+version: "3"
+services:
+  backend:
+    build:
+      context: ./academit-backend
+      dockerfile: dockerfile
+    expose:
+      - 3000
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
+  frontend:
+    build:
+      context: ./academit-frontend
+      dockerfile: dockerfile
+    expose:
+      - 4173
+    ports:
+      - "4173:4173"
+    networks:
+      - my-network
+networks:
+  my-network:

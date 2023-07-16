@@ -1,0 +1,18 @@
+# Utilizamos una imagen base de Node.js
+FROM node:14
+
+# Establecemos el directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copiamos los archivos de la aplicación al contenedor
+COPY package.json package-lock.json /app/
+
+# Instalamos las dependencias
+RUN npm install
+
+# Copiamos el resto de los archivos de la aplicación al contenedor
+COPY . .
+
+
+# Comando para ejecutar la aplicación
+CMD ["npm", "start"]

@@ -1,0 +1,36 @@
+.
+├── docker-compose.yml
+├── dockerFile
+├── package-lock.json
+├── package.json
+├── src
+│   ├── config
+│   │   ├── environmet.config.js
+│   │   └── index.js
+│   ├── controller
+│   │   ├── index.js
+│   │   └── secret.controller.js
+│   ├── index.js
+│   ├── middleware
+│   │   ├── auth.middleware.js
+│   │   ├── error.middleware.js
+│   │   └── index.js
+│   ├── routes
+│   │   ├── index.js
+│   │   └── secretFile.routes.js
+│   ├── server
+│   │   └── index.js
+│   ├── services
+│   │   ├── index.js
+│   │   └── secretFiles.service.js
+│   └── utils
+│       ├── axios.utils.js
+│       ├── format
+│       │   └── lines.format.js
+│       └── validator
+│           └── lines.validator.js
+├── test
+│   └── model.js
+└── tree.txt
+
+12 directories, 22 files
